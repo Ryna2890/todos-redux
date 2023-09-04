@@ -1,7 +1,7 @@
 import styled, {css} from "styled-components";
 
 export interface TaskStyled {
-    done: boolean;
+    done: string;
 }
 
 export const Container = styled.div<TaskStyled>`
@@ -11,7 +11,7 @@ export const Container = styled.div<TaskStyled>`
   border-radius: 8px;
 
   ${({done}) =>
-          done ?
+          done === "completed" ?
                   css`
                     background-color: #D9D9D93D;
                   `

@@ -11,7 +11,7 @@ interface TaskProps {
 
 export const Task: React.FC<TaskProps> = ({ task, onChange }) => {
     return (
-        <Container id={task.id} done={task.completed}>
+        <Container id={task.id} done={task.completed?"completed":""}>
             <CustomCheckbox
                 isChecked={task.completed}
                 onChange={() => onChange(task.id)}

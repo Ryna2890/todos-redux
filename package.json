@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-redux",
+  "name": "todos-redux",
   "private": true,
   "version": "0.0.0",
   "type": "module",

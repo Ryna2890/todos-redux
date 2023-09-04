@@ -23,7 +23,8 @@ export const Container = styled.input`
     width: 16px;
     height: 16px;
     border: 1px solid #3F46D6;
-    background-image: url("../../../src/assets/Icon.png");
+    background-color: green;
+    clip-path: polygon(45% 64%, 84% 14%, 100% 28%, 47% 100%, 0 49%, 15% 32%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10px 8px;
